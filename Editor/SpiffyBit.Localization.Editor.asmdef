@@ -1,0 +1,18 @@
+{
+    "name": "SpiffyBit.Localization.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2751c5ce2e4b00048bc01ff29e2583e2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

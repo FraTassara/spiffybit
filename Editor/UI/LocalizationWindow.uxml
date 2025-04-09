@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="LocalizationWindow.uss" />
+    <ui:VisualElement name="Root" class="root-container">
+        <ui:VisualElement name="Toolbar" class="toolbar-container">
+            <ui:Button text="Localization" display-tooltip-when-elided="true" name="DataButton" class="toolbar-button" />
+            <ui:Button text="Language Codes" display-tooltip-when-elided="true" name="CodesButton" class="toolbar-button" />
+            <ui:Button text="Google Sync" display-tooltip-when-elided="true" name="SyncButton" class="toolbar-button" />
+            <ui:Button text="Extractor" display-tooltip-when-elided="true" name="ExtractorButton" class="toolbar-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Assets" class="content-container">
+            <uie:PropertyField binding-path="Spreadsheets" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Codes" class="content-container">
+            <uie:EnumField label="Default Language" binding-path="DefaultLanguage" />
+            <uie:PropertyField binding-path="LanguageCodes" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Sync" class="content-container">
+            <ui:TextField picking-mode="Ignore" label="Google Spreadsheet ID" binding-path="SpreadsheetID" />
+            <uie:PropertyField binding-path="SpreadsheetNames" />
+            <ui:Button text="Sync Data" display-tooltip-when-elided="true" name="SyncDataButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Extractor" class="content-container">
+            <uie:EnumField label="Target Language" name="ExtractorEnum" type="UnityEngine.SystemLanguage, UnityEngine.CoreModule" value="English" />
+            <uie:ObjectField label="Target Asset" name="ExtractorObject" type="UnityEngine.TextAsset, UnityEngine.CoreModule" />
+            <ui:Button text="Extract Characters" display-tooltip-when-elided="true" name="ExtractButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

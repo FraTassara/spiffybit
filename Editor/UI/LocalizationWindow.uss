@@ -1,0 +1,51 @@
+.root-container {
+    margin-left: -15px;
+}
+
+.toolbar-container {
+    flex-direction: row;
+    background-color: rgb(38, 38, 38);
+    height: 30px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.toolbar-button {
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    margin-right: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-left-width: 5px;
+    border-left-color: rgb(128, 128, 128);
+    flex-grow: 1;
+}
+
+.content-container {
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.unity-property-field {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
