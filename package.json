@@ -4,9 +4,6 @@
   "displayName": "SpiffyBit Localization",
   "description": "Localization tool integrated with google sheets",
   "unity": "2019.1",
-  "dependencies": {
-    "com.unity.textmeshpro": ""
-  },
   "keywords": [
     "SpiffyBit",
     "Localization",
